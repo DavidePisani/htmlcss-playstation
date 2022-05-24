@@ -1,0 +1,153 @@
+/* COMMON */
+body{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    font-family: Helvetica, arial, sans-serif;
+}
+
+.img{
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.flex-cont{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+.btn-grey{
+    background-color: grey;
+    color: white;
+}
+
+.btn-orange{
+    background-color: orangered;
+    color: white;
+}
+
+/* HEADER */
+
+/* header-top */
+.header-top{
+    background-color: black;
+    height: 30px;
+    text-align: end;
+}
+
+.header-top img{
+    height: 30px;
+    padding: 8px;
+}
+
+/* header-bottom */
+
+.header-bottom{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.header-bottom i{
+    color: lightgray;
+    padding-left: 3px;
+}
+
+.ms-nav-left{
+    height: 100%;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.ms-nav-left li{
+    font-weight: bolder;
+}
+
+.header-bottom li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header-bottom li img{
+    width: 50%;
+}
+
+.btn-burger i{
+    font-size: 30px;
+    color: grey;
+}
+
+.header-bottom nav{
+    text-align: right;
+}
+
+/* MAIN */
+/* jumbortron */
+.ms-jumbo{
+    width: 100%;
+    align-items: flex-end;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.info-jumbo{
+    padding-top: 200px;
+    padding-bottom: 20px;
+    width: 80%;
+    color: white;
+    align-items: baseline;
+}
+
+.info-jumbo img{
+    width: 60%;   
+}
+
+.info-jumbo h2{
+    font-size: 40px;
+    padding: 25px 0;
+}
+
+/* usciti ora */
+
+.out-now{
+    width: 100%;
+}
+
+.img-card{
+    width: 300px;
+    height: 50px;
+    
+}
+.img-card > img{
+    width: 100%;
+}
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width:992px) {
+/* MAIN */
+/* jumbotron */
+    .info-jumbo{
+        width: 35%;
+    }
+    
+}
+
