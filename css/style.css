@@ -161,6 +161,10 @@ a:hover{
     color: #727272;
 }
 
+.info-ps5{
+    margin-top: 100px;
+}
+
 .info-ps5 h2{
     font-size: 45px;
     padding-bottom: 10px;
@@ -243,9 +247,87 @@ a:hover{
 }
 
 .info-ps4 h2{
-    
+    font-size: 50px;
 }
-   
+
+.info-ps4 p{
+    font-size: 20px;
+    color: #727272;
+    font-weight: bolder;
+}
+
+.card{
+    border: 0;
+}
+ /*PLAYSTATION PLUS */
+
+.play-plus{
+    width: 100%;
+    background-color: #bebcbb;
+}
+.info-play-plus{
+    margin: 25px 0;
+}
+.img-play-plus{
+    width: 50%;;
+}
+
+.info-play-plus p{
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+.btn-pls-plus{
+    background-color: #d9dadc;
+    color: #3569e5;
+}
+
+/* SCONTI da completare */
+.sales{
+    padding: 20px;
+}
+.sconti{
+text-align: center;
+}
+/* PLAYSTATION NOW */
+
+.ps-now{
+    width: 100%;
+    background-color: #161c3b;
+    color: white;
+}
+.info-ps-now{
+    margin: 25px 0;
+}
+.img-ps-now{
+    width: 50%;;
+}
+
+.info-ps-now p{
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+.btn-ps-now{
+    background-color: white;
+    color: black;
+}
+
+/* MEDIA */
+
+.media{
+    padding: 50px 0;
+}
+
+.info-media{
+    text-align: center;
+}
+
+.info-media h2{
+    font-size: 30px;
+    padding-bottom: 40px;
+
+}
 
 /* DESKTOP */
 
