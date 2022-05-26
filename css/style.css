@@ -30,6 +30,22 @@ a:hover{
     color: inherit;
 }
 
+/* UTILITY*/
+
+/* GENERARI PS-PLUS E NOW */
+.info-ps-sub{
+    margin: 25px 0;
+}
+.img-ps-sub{
+    width: 50%;
+}
+
+.info-ps-now p{
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+/* BOTTONI */
 .btn-grey{
     background-color: grey;
     color: white;
@@ -38,10 +54,6 @@ a:hover{
 .btn-orange{
     background-color: orangered;
     color: white;
-}
-
-.txt-black{
-    color: black;
 }
 
 /* HEADER */
@@ -100,6 +112,12 @@ a:hover{
     text-align: right;
 }
 
+
+
+.header-bottom a:hover{
+    color:#00439c
+}
+
 /* MAIN */
 
 /* jumbortron */
@@ -142,7 +160,6 @@ a:hover{
     border: 3px solid #0072ce;
     border-radius: 15px;
 }
-
 
 /* PS5 */
 .intro-ps5{
@@ -223,7 +240,7 @@ a:hover{
     padding: 25px 0;
 }
 
-/* NUOVE USCITE */
+/* nuove usite */
 .new-relese{
     width: 100%;
     background-color: #1f1f1f;
@@ -245,7 +262,7 @@ a:hover{
     padding-top: 5px;
 }
 
-/* INFO PS4 */
+/* info PS4 */
 .info-ps4{
     text-align: center;
     padding: 50px 0;
@@ -268,21 +285,10 @@ a:hover{
     border: 0;
 }
 
- /*PLAYSTATION PLUS */
+ /*playstation PLUS */
 .play-plus{
     width: 100%;
     background-color: #bebcbb;
-}
-.info-play-plus{
-    margin: 25px 0;
-}
-.img-play-plus{
-    width: 50%;;
-}
-
-.info-play-plus p{
-    padding-top: 30px;
-    font-weight: bolder;
 }
 
 .btn-pls-plus{
@@ -290,7 +296,7 @@ a:hover{
     color: #3569e5;
 }
 
-/* SCONTI */
+/* sconti */
 .sales{
     padding-bottom: 50px;
 }
@@ -309,22 +315,11 @@ a:hover{
     font-weight: bolder;
 }
 
-/* PLAYSTATION NOW */
+/* playstation NOW */
 .ps-now{
     width: 100%;
     background-color: #161c3b;
     color: white;
-}
-.info-ps-now{
-    margin: 25px 0;
-}
-.img-ps-now{
-    width: 50%;;
-}
-
-.info-ps-now p{
-    padding-top: 30px;
-    font-weight: bolder;
 }
 
 .btn-ps-now{
@@ -332,7 +327,7 @@ a:hover{
     color: black;
 }
 
-/* MEDIA */
+/* media */
 .media{
     padding: 50px 0;
 }
@@ -388,16 +383,15 @@ footer li{
 }
 
 /* DESKTOP */
-
 @media screen and (min-width:992px) {
 /* MAIN */
+
 /* jumbotron */
     .info-jumbo{
         width: 35%;
     }
 
     /* ps5 */
-    
     .info-gadget{
         padding: 30px;
     }
@@ -408,7 +402,6 @@ footer li{
     }
 
     /*FOOTER info sony */
-
     .info-sony{
         width: 50%;
     }
